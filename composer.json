@@ -1,0 +1,15 @@
+{
+    "name": "johnbeales/large-object-tester",
+    "description": "Tests Large Object uploads",
+    "type": "project",
+    "require": {
+        "php-opencloud/openstack": "^3.1",
+        "vlucas/phpdotenv": "^5.2"
+    },
+    "authors": [
+        {
+            "name": "John Beales",
+            "email": "john@johnbeales.com"
+        }
+    ]
+}
