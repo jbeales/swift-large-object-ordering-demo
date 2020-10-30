@@ -22,6 +22,8 @@ function createTestObjectSource( $number_of_segments ) {
     file_put_contents( 'test-files/object-source.txt', $source );
 }
 
+
+// Change the number of lines, and therefore objects, here.
 createTestObjectSource( 12 );
 
 
