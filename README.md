@@ -8,7 +8,14 @@ I was using [Swift Large Objects](https://docs.openstack.org/swift/latest/overvi
 
 Running main.php creates a file that's 12 lines long, with 1024 characters on each line, including the newline. Each line starts with the line number. That file is uploaded to a Swift instance as a "large" object with a segmetn size of 1024 bytes so each line is a separate segment, then downloaded, and the original and downloaded files are compared and displayed on screen.
 
-## Configuration
+## Installation & Configuration
+
+### Installation
+
+1. Clone the repository.
+2. Run `composer install` in the repository.
+
+### Configuration
 
 Copy the .env.example file to .env and add values for the constants. 
 
